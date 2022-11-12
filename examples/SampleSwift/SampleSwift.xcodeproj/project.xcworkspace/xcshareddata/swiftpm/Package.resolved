@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "cocoaasyncsocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robbiehanson/CocoaAsyncSocket",
+      "state" : {
+        "revision" : "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+        "version" : "7.6.5"
+      }
+    },
+    {
+      "identity" : "flipper",
+      "kind" : "localSourceControl",
+      "location" : "/Users/chiragramani/Documents/flipper/Flipper",
+      "state" : {
+        "branch" : "main",
+        "revision" : "11eb98027403ae3608f1738caa6a71fe61b95643"
+      }
+    },
+    {
+      "identity" : "openssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
+      "state" : {
+        "revision" : "52db2ab9de7f78d1dea0d728fddd47fb133e25b7",
+        "version" : "1.1.1900"
+      }
+    }
+  ],
+  "version" : 2
+}
