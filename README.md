@@ -40,9 +40,9 @@ If during connecting the iOS app to Flipper you see an error message "Connection
 ## Known issues
 Please note: this package is only covering the client SDK pieces so all IDE related issues should be reported in the official flipper github forums.
  
-Apple Silicon Flipper IDE is not a universal binary and is translated via Rosetta. This is being tracked in https://github.com/facebook/flipper/pull/3553.
-NSLog from a Swift application are not shown in the Logs plugin. This is being tracked in https://github.com/facebook/flipper/issues/3823. 
+1. Apple Silicon Flipper IDE is not a universal binary and is translated via Rosetta. This is being tracked in https://github.com/facebook/flipper/pull/3553.
 
+2. NSLog from a Swift application are not shown in the Logs plugin. This is being tracked in https://github.com/facebook/flipper/issues/3823. 
 
 ## If you are interested to know more about Flipper, the following should help:
 
