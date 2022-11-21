@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E37C6E6292B2A6500C6EE02 /* FlipperLite in Frameworks */ = {isa = PBXBuildFile; productRef = 3E37C6E5292B2A6500C6EE02 /* FlipperLite */; };
 		3E71F393292AFC7E00771419 /* SampleSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F392292AFC7E00771419 /* SampleSwiftApp.swift */; };
 		3E71F395292AFC7E00771419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F394292AFC7E00771419 /* ContentView.swift */; };
 		3E71F397292AFC7E00771419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E71F396292AFC7E00771419 /* Assets.xcassets */; };
@@ -21,7 +22,6 @@
 		3E71F3B5292B0CCF00771419 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F3B4292B0CCF00771419 /* GameState.swift */; };
 		3E71F3B7292B0CD500771419 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F3B6292B0CD500771419 /* SquareView.swift */; };
 		3E71F3B9292B0CDD00771419 /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F3B8292B0CDD00771419 /* TicTacToeModel.swift */; };
-		3E71F3BC292B0D6400771419 /* Flipper in Frameworks */ = {isa = PBXBuildFile; productRef = 3E71F3BB292B0D6400771419 /* Flipper */; };
 		3E71F3BE292B0E2600771419 /* RCLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F3BD292B0E2600771419 /* RCLoggerPlugin.swift */; };
 		3E71F3C0292B0E8800771419 /* TicTacToePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71F3BF292B0E8800771419 /* TicTacToePlugin.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E71F3BC292B0D6400771419 /* Flipper in Frameworks */,
+				3E37C6E6292B2A6500C6EE02 /* FlipperLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = SampleSwift;
 			packageProductDependencies = (
-				3E71F3BB292B0D6400771419 /* Flipper */,
+				3E37C6E5292B2A6500C6EE02 /* FlipperLite */,
 			);
 			productName = SampleSwift;
 			productReference = 3E71F38F292AFC7E00771419 /* SampleSwift.app */;
@@ -177,7 +177,7 @@
 			);
 			mainGroup = 3E71F386292AFC7E00771419;
 			packageReferences = (
-				3E71F3BA292B0D6400771419 /* XCRemoteSwiftPackageReference "Flipper" */,
+				3E37C6E4292B2A6500C6EE02 /* XCRemoteSwiftPackageReference "FlipperLite" */,
 			);
 			productRefGroup = 3E71F390292AFC7E00771419 /* Products */;
 			projectDirPath = "";
@@ -419,9 +419,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3E71F3BA292B0D6400771419 /* XCRemoteSwiftPackageReference "Flipper" */ = {
+		3E37C6E4292B2A6500C6EE02 /* XCRemoteSwiftPackageReference "FlipperLite" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = /Users/chiragramani/Documents/flipper/Flipper;
+			repositoryURL = "https://github.com/chiragramani/FlipperLite.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -430,10 +430,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3E71F3BB292B0D6400771419 /* Flipper */ = {
+		3E37C6E5292B2A6500C6EE02 /* FlipperLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3E71F3BA292B0D6400771419 /* XCRemoteSwiftPackageReference "Flipper" */;
-			productName = Flipper;
+			package = 3E37C6E4292B2A6500C6EE02 /* XCRemoteSwiftPackageReference "FlipperLite" */;
+			productName = FlipperLite;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

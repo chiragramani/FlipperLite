@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "flipper",
-      "kind" : "localSourceControl",
-      "location" : "/Users/chiragramani/Documents/flipper/Flipper",
+      "identity" : "flipperlite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiragramani/FlipperLite.git",
       "state" : {
         "branch" : "main",
-        "revision" : "11eb98027403ae3608f1738caa6a71fe61b95643"
+        "revision" : "53d59cecd5d93a33765f2a8ec4ca0b26d92447d0"
       }
     },
     {
