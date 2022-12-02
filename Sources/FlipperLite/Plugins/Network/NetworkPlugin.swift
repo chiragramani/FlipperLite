@@ -1,5 +1,5 @@
 import Foundation
-import PluginUtils
+import FlipperPluginUtils
 
 public typealias FlipperNetworkAdapter = SKIOSNetworkAdapter
 

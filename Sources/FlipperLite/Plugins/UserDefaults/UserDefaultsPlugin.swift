@@ -1,5 +1,5 @@
 import Foundation
-import PluginUtils
+import FlipperPluginUtils
 
 final public class UserDefaultsPlugin: FlipperPlugin {
     public let id: String = "Preferences"

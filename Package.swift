@@ -16,14 +16,16 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", exact: Version("1.1.1900")),
-        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", exact: Version("7.6.5"))
+        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", exact: Version("7.6.5")),
+        .package(url: "https://github.com/chiragramani/FlipperPluginUtils",
+                 branch: "main"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "FlipperLite",
-            dependencies: ["CertUtils", "FKPortForwardingServer", "PluginUtils"]),
+            dependencies: ["CertUtils", "FKPortForwardingServer", "FlipperPluginUtils"]),
         .target(
             name: "CertUtils",
             dependencies: [
@@ -41,9 +43,5 @@ let package = Package(
                 "CocoaAsyncSocket"
             ],
             publicHeadersPath: "."),
-        .target(
-            name: "PluginUtils",
-            dependencies: [],
-            publicHeadersPath: "include"),
     ]
 )

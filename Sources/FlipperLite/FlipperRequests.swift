@@ -1,5 +1,5 @@
 import Foundation
-import PluginUtils
+import FlipperPluginUtils
 
 public struct FlipperErrorMessage {
     let message: String

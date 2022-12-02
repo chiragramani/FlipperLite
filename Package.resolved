@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "flipperpluginutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiragramani/FlipperPluginUtils",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f68ac6cc7954867b4ea9d9fa13be5995174c4929"
+      }
+    },
+    {
       "identity" : "openssl",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
