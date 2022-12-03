@@ -24,7 +24,7 @@ static dispatch_data_t NSDataToGCDData(NSData* data) {
 #endif
 
 
-@import Peertalk;
+@import FlipperLitePeertalk;
 @import CocoaAsyncSocket;
 
 

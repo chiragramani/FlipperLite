@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "flipperlitepeertalk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiragramani/FlipperLitePeertalk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5004f4d8a24dd1299e45e57d05d24da7b8ce5fca"
+      }
+    },
+    {
       "identity" : "flipperpluginutils",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/chiragramani/FlipperPluginUtils",
