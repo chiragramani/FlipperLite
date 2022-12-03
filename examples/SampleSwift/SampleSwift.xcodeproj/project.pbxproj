@@ -423,8 +423,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/chiragramani/FlipperLite.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = revision;
+				revision = de6a0c3d3fbcc59a9697acd689f6c74604b58c4b;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

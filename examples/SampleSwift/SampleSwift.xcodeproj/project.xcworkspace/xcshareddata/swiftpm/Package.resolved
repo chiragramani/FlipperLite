@@ -14,8 +14,25 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/chiragramani/FlipperLite.git",
       "state" : {
+        "revision" : "de6a0c3d3fbcc59a9697acd689f6c74604b58c4b"
+      }
+    },
+    {
+      "identity" : "flipperlitepeertalk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiragramani/FlipperLitePeertalk",
+      "state" : {
         "branch" : "main",
-        "revision" : "53d59cecd5d93a33765f2a8ec4ca0b26d92447d0"
+        "revision" : "5004f4d8a24dd1299e45e57d05d24da7b8ce5fca"
+      }
+    },
+    {
+      "identity" : "flipperpluginutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiragramani/FlipperPluginUtils",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f68ac6cc7954867b4ea9d9fa13be5995174c4929"
       }
     },
     {
